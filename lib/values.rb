@@ -11,6 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   x = []
   groceries.each do |types, food|
+  binding.pry
     food do |eachfood|
       x << eachfood
     end
