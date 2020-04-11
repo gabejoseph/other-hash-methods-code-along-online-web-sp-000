@@ -12,8 +12,8 @@ def get_the_values(groceries)
   x = []
   groceries.each do |types, food|
     food do |eachfood|
-    binding.pry
-      eachfood
+      x << eachfood
     end
   end
+  x
 end
