@@ -15,5 +15,4 @@ def get_the_values(groceries)
       x << eachfood
     end
   end
-  x
 end
